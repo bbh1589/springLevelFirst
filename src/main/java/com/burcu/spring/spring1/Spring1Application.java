@@ -17,10 +17,10 @@ import org.springframework.context.annotation.Configuration;
 public class Spring1Application {
 
 
-	@Bean
-	public HelloWorldService getMEssageService(){
-		return new HelloWorldServiceImpl2();
-	}
+//	@Bean
+//	public HelloWorldService getMEssageService(){
+//		return new HelloWorldServiceImpl2();
+//	}
 
 
 	public static void main(String[] args) {
