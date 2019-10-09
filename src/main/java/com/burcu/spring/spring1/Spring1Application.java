@@ -2,6 +2,7 @@ package com.burcu.spring.spring1;
 
 import com.burcu.spring.spring1.service.HelloWorldService;
 import com.burcu.spring.spring1.service.HelloWorldServiceImpl;
+import com.burcu.spring.spring1.service.HelloWorldServiceImpl2;
 import com.burcu.spring.spring1.utils.MessageManager;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -18,7 +19,7 @@ public class Spring1Application {
 
 	@Bean
 	public HelloWorldService getMEssageService(){
-		return new HelloWorldServiceImpl();
+		return new HelloWorldServiceImpl2();
 	}
 
 
